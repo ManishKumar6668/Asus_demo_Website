@@ -1,0 +1,87 @@
+.section1{
+    background-image: url('images/section1bg.jpg');
+    background-size: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+}
+.s1cards{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(149, 149, 164);
+    transition: 1s;
+    /*transform: translateY(150px);*/
+    padding: 30px 50px;
+    background: lightgrey;
+    cursor: pointer;
+}
+.s1cards:hover{
+    height: 300px;
+}
+.cardimages{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50px);
+    z-index: 1;
+}
+.cardimage2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-10px);
+    z-index: 1;
+}
+.cardimage1_1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(3px);
+    z-index: 1;
+}
+img{
+    width: 100%;
+}
+.main_img{
+    width: 100%;
+}
+.s1cards:hover .main_img{
+    width:100%;
+    transition: 2.5s;
+}
+.content{
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-300px);
+    opacity: 0;
+    transition: 0.5s;
+}
+.s1cards:hover .content{
+    opacity: 1;
+    transform: translateY(-220px);
+}
+.s1cards:hover .cardimages{
+    transition: 2.5s;
+    transform: translateY(-180px);
+    
+}
+.s1cards:hover .cardimage2{
+    transition: 2.5s;
+    transform: translateY(-125px);
+}
+.s1cards:hover .cardimage1_1{
+    transition: 2.5s;
+    transform: translateY(-125px);
+}
+.s1cards:hover img{
+    transition: 2.5s;
+    transform: scale(1.2) rotate(5deg);
+}
+h2{
+    color: rgb(13, 12, 12);
+    padding: 12px 0px;
+}

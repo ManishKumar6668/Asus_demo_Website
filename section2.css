@@ -1,0 +1,21 @@
+.section2{
+    margin: 0;
+    padding: 0;
+    background: rgb(192, 192, 203);
+}
+.s2container{
+    display: flex;
+}
+.s2container img:hover{
+    transition: 3s;
+transform: scale(1.5);
+
+}
+.content2{
+    align-items: right;
+}
+.content2 img:hover{
+    transition: 3s;
+transform: scale(1) rotate(360deg);
+
+}
